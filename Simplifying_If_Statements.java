@@ -2,7 +2,6 @@ public class Main {
 
     public static void main(String[] args) {
         // First way to implement the scenario
-
         int income = 120_000;
         boolean hasHighIncome;
         if (income > 100_000)
@@ -11,7 +10,6 @@ public class Main {
             hasHighIncome = false;
 
         // Second Way
-
         int income = 120_000;
         boolean hasHighIncome = false;
         if (income > 100_000)
