@@ -1,0 +1,38 @@
+Parameter & Argument 
+ 
+name => parameter
+Sait => argument
+===========
+expression: a piece of code that produces a value.
+===========
+for loop: in situations where you know what how many times do you want to execute one or more statements it's better to use a for loop.
+===========
+while loop: While loops are better where we don't know exactly how many times we want to repeat something.
+===========
+The Continue statement: the continue statement that moves control to the beginning of the loop.
+===========
+The Break statement: the break statement terminates the loop.
+===========
+while(true): if you're using while(true), make sure you have a break statement in your loop.
+===========
+Refactoring: Refactoring means changing the structure of the code, without changing it's behavior.
+***Ideally, our methods should be between 5-10 lines of code. if more than that we need to refactor it.
+===========
+When declaring primitive types, we don't need to allocate memory. Memories allocate and release by Java run time environments. But when dealing with reference types, we should always allocate memory. 
+=========
+object is an instance of a class.
+=========
+primitive types don't have members. 
+========
+Reference types are copied by the references.
+========
+Primitive types are copied by their value. And these values are completely independent of each other.
+======
+Strings are immutable, we cannot mutate them, we cannot change them. So any methods that modify a string, will always return a new string object.
+=======
+Arrays have a fixed length. So once we create them, we cannot add or remove additional items to them.
+========
+by convention we use all capital letters to name constants. e.g final float PI = 3.14F
+========
+implicit casting(automatic casting): Whenever we have a value and that value can be converted to a type that is bigger, casting or conversion happens implicitly or automatically. byte > short > int > long > float > double ==> No data loss.
+========
