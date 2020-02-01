@@ -36,3 +36,7 @@ by convention we use all capital letters to name constants. e.g final float PI =
 ========
 implicit casting(automatic casting): Whenever we have a value and that value can be converted to a type that is bigger, casting or conversion happens implicitly or automatically. byte > short > int > long > float > double ==> No data loss.
 ========
+Java => Simple, High-level, Object-oriented, General-purpose language,Strongly types, Statically typed (not dynamic like Python), Automatic memory management, Highly portable
+========
+Identifier is a name that we associate with some program entity (class name, variable name, parameter name, etc.)
+=========
