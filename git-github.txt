@@ -1,29 +1,29 @@
 User info
 
-git config --list  // Check user info setted or not
+git config --list    => Check user info setted or not
 git config --global user.name "username or alias"
 git config --global user.email "email@email.com"
 
-git status   => Check status of changes to a repository
-git diff     => View changes to files
-git add <filename> => Add a file's changes to be committed
-git add . => to add all files changes
+git status                     => Check status of changes to a repository
+git diff                       => View changes to files
+git add <filename>             => Add a file's changes to be committed
+git add .                      => to add all files changes
 git commit -m "commit message" => to commit(SAVE) the changes you have added with a short message describing the changes
 
 Add Github username to Git
 
-git config --global user.username <username> => to add github username to git
-git config --global user.username => for checking github username setted or not
+git config --global user.username <username>    => to add github username to git
+git config --global user.username               => for checking github username setted or not
 
-git remote add <REMOTENAME> <URLFROMGITHUB> => Add remote connections
+git remote add <REMOTENAME> <URLFROMGITHUB>     => Add remote connections
 git remote set-url <REMOTENAME> <URLFROMGITHUB> => set a URL to a remote
-git pull <REMOTENAME> <BRANCHNAME> => pull in changes
-git remote -v => View remote addresses
-git push <REMOTENAME> <BRANCHNAME> => Push changes
+git pull <REMOTENAME> <BRANCHNAME>              => pull in changes
+git remote -v                                   => View remote addresses
+git push <REMOTENAME> <BRANCHNAME>              => Push changes
 
 Example:
-git remote add origin <URLFROMGITHUB> => to add a remote named 'origin' to your repository
-git push origin master => branch named master to remote on Github named 'origin'
+git remote add origin <URLFROMGITHUB>           => to add a remote named 'origin' to your repository
+git push origin master                          => branch named master to remote on Github named 'origin'
 
 Clone from Github
 
