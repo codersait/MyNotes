@@ -10,7 +10,6 @@ git status                     => Check status of changes to a repository
 git diff                       => View changes to files
 git add <filename>             => Add a file's changes to be committed
 git add .                      => to add all files changes
-git status                     => Check status of changes to a repository
 git diff                       => View changes to files
 git add <filename>             => Add a file's changes to be committed
 git add .                      => to add all files changes
