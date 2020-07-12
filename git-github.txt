@@ -4,6 +4,7 @@ git config --list  // Check user info setted or not
 git config --global user.name "username or alias"
 git config --global user.email "email@email.com"
 
+git init     => Initialize git 
 git status   => Check status of changes to a repository
 git diff     => View changes to files
 git add <filename> => Add a file's changes to be committed
