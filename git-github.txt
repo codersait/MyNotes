@@ -17,10 +17,10 @@ Add Github username to Git
 git config --global user.username <username>    => to add github username to git
 git config --global user.username               => for checking github username setted or not
 
+git remote -v                                   => View remote addresses
 git remote add <REMOTENAME> <URLFROMGITHUB>     => Add remote connections
 git remote set-url <REMOTENAME> <URLFROMGITHUB> => set a URL to a remote
 git pull <REMOTENAME> <BRANCHNAME>              => pull in changes
-git remote -v                                   => View remote addresses
 git push <REMOTENAME> <BRANCHNAME>              => Push changes
 
 Example:
