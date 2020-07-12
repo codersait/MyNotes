@@ -35,6 +35,8 @@ Clone from Github
 
 git clone <URLFROMGITHUB>
 
+** don't use '<>' 
+
 
 
 
