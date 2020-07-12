@@ -10,9 +10,6 @@ git status                     => Check status of changes to a repository
 git diff                       => View changes to files
 git add <filename>             => Add a file's changes to be committed
 git add .                      => to add all files changes
-git diff                       => View changes to files
-git add <filename>             => Add a file's changes to be committed
-git add .                      => to add all files changes
 git commit -m "commit message" => to commit(SAVE) the changes you have added with a short message describing the changes
 
 Add Github username to Git
