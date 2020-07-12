@@ -4,18 +4,16 @@ git config --list    => Check user info setted or not
 git config --global user.name "username or alias"
 git config --global user.email "email@email.com"
 
-<<<<<<< HEAD
-git init     => Initialize git 
-git status   => Check status of changes to a repository
-git diff     => View changes to files
-git add <filename> => Add a file's changes to be committed
-git add . => to add all files changes
-=======
+
+git init                       => Initialize git 
 git status                     => Check status of changes to a repository
 git diff                       => View changes to files
 git add <filename>             => Add a file's changes to be committed
 git add .                      => to add all files changes
->>>>>>> 96d89422b2ba754d935475568e3ec565f9ee2186
+git status                     => Check status of changes to a repository
+git diff                       => View changes to files
+git add <filename>             => Add a file's changes to be committed
+git add .                      => to add all files changes
 git commit -m "commit message" => to commit(SAVE) the changes you have added with a short message describing the changes
 
 Add Github username to Git
