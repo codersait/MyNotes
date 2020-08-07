@@ -28,6 +28,6 @@ const fakeApi = new Promise((resolved, reject) => {
       },
     ],
   };
-  resolved(fakeData);
+  resolved(fakeData)
 });
 
