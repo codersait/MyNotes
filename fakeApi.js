@@ -3,7 +3,7 @@ const fakeApi = new Promise((resolved, reject) => {
     data: [
       {
         id: 1,
-        title: "konuadi",
+        title: "html",
         order: 2,
       },
       {
