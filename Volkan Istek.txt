@@ -1,0 +1,133 @@
+Java C++ kolaylastirmak icin gelmistir.
+-------------------
+Bilgisyarda iki tip dosya tutulur. Binary dosya ve Text dosyasi.
+--------------------
+Her bit bir transistörde tutulur. 5v verilince 1 , bosalinca 0.
+-----------
+HDD ve RAM de en kucuk birim byte tir.buyuk B ile yazilir.
+------------
+Networkte en kucuk birim bit tir. kucuk b ile yazilir.
+------------
+Degiskenler RAM de tutulur.
+-------------
+RAM banka kasasi gibidir. uzerideki numara(memory address) kutuyu bulmamizi sagliyor. icerisindeki alan(memory content) da icerise birsey koymamizi sagliyor.
+---------------
+Komutlar da bitlerden olusur.
+---------------
+Karakterler bit olarak tutulur. Ascii table dan bakilir.
+---------------
+Java da karakter 16 bitten olusur. 65 bin farkli karakter tutulabilir.
+---------------
+Buyuk harflar kucuk sayida tutuluyor. kucuk harfler buyuk sayida.
+----------------
+Resim pixellerden olusur. her pixel bir renktir. her renk 3 ana renkten olusur.RGB.uc renk icin bir byte ayiriyor.3 byte ile 1 pixel kodlaniyor.mesela 16 mega pixel bir resim var. 16 *3 kadar yer kaplanir kabaca.
+--------------------
+Ramde pc kapaninca hersey gider.
+----------------
+Java dosyalari ve class dosyalari, dosya olduklari icin hdd te tutulur. Code icindeki degiskenler, program calistirilinca ram de tutulur.
+-----------------
+Literal: Degiskene atayabilecegimiz ama degiskene atamadan kullandigimiz seylerdir.
+----------
+if else - else if zincirinden sadece bir blok calistirilir.
+-----------
+Tur donusum operatorunun onceligi carpma - bolme den fazladir.
+-------------
+Oncelikleri ayni olan operatorlerden, isleme soldan baslanir.
+----------
+Switch: condition esitlikse switch tercih edilir. koda estetiklik katar.
+----------
+Operator Precedence: All binary operators except assignment operators are left associative.
+a – b + c – d is equivalent to ((a – b) + c) - d   --> left associative
+a = b += c = d is equivalent to a = (b += (c = 5)) --> right associative
+----------------
+Bilgisayar icin hersey bir ikilik tabaninda sayidir. Char vs de.
+-------------------
+Method: Header ve body den olusur.
+---------------
+invoke or call a method: method cagirma.
+---------------
+method signature: methodun imzasi isim ve parametre yapisindan olusur.
+------
+method algoritmik olarak hem kullaniliyo hem kullanilmiyor. recursive nethodlar  algoritmik olarak kullaniliyor(fonksiyonel programlamada).
+------
+define vs decleration: method define edilir.ramde yer ayrilmaz.decleration yapilinca ornegin int a; gibi. ramde 32 bitlik bir yer ayrilir.
+------
+methodlar diger programlama dillerinde prosedur ve fonksiyon olarak adlandirilabilir. deger donen methodlara fonksiyon, deger donmeyen methodlara prosedur denir.Ama java da method denilir ikisine de.
+------
+bin: binary nin kisaltmasi. class dosyalari(.class) burda olur.
+----
+src: source. java dosyalari(.java) burda tutulur.
+----- 
+web in en buyuk avantaji deployment.
+-----
+methodlarin iki buyuk avantaji: 1- reusability 2- abstraction. kod parcalanip sadelestirilir.
+---
+methodlarin kod kalite analizine gore 50 satiri gecmemesi dusunulur.
+----
+method donuse gore isimlendirme. mesela void printGrade(), char getGrade().
+----
+methodun makbulu tek is yapanidir.
+---
+debug edilirken dongunun bittigi yere break point koyulur.
+----
+void mehod dan cikmak icin return kullanilabilir.
+-----
+Debug: class dosyalari(.class) debug edilir java dosyalari degil.
+----
+stackoverflow: stack tasmasi.methodlar birinini cagirir.sonra patlar.out of memory hatasi degildir.belli bir derinlikte isletim sistemi sonlandirir.
+-------
+recursive method: methodun kendi kendini cagirmasidir.bir yerde durmalari gerekir. yoksa stackoverflow hatasi alinir.
+-----
+Heap ten aldigi zaman dinamik alir. Stack ten aldigi zaman program çalısmaya basladigi zamanda alir.
+-----
+Reference:Heapteki alaninin baslangic adresi Stack te tutulur.
+------
+Reference 32 bitlik bir integer dir. Stack te tutulur.
+-----
+Javada 3 yerde değişken tanımlanır.1-metod icinde, 2-metod parametresinde, 3-sinif icinde. 
+------
+Constructor: Sınıfla ayni isme sahip geri dönüş degeri olmayan metottur.Obje create etmek icin kullanılır.Biz explicitly tanımlamazsak java kendi default bos bir constructor oluşturur.
+-------
+Static prosedurel programlamlama ve OOP yi birbirinden ayiran kelimedir.
+----
+Hangi sorusunun cevabına gore static kullanılır yada kullanılmaz.
+---
+Java siniflarinda butun değişkenleri private yapın. Onlara erişmek icin setter setter kullanın.
+----
+Main static method olduğu icin ancak static metodlara erişir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

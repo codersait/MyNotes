@@ -1,0 +1,145 @@
+- Each language was invented for a specific purpose—to build on the strengths of a previous language.
+- In truth, there is no “best” language. Each one has its own strengths and weaknesses.
+- Seasoned programmers try to master as many different programming languages as they can, giving them access to a vast arsenal of software-development tools.
+- If you learn to program using one language, you should find it easy to pick up other languages.
+- The key is to learn how to solve problems using a programming approach.
+- In general, hardware comprises the visible, physical elements of the computer, and software provides the invisible instructions that control the hardware and make it perform specific tasks.
+- Major hardware components: A central processing unit (CPU),Memory (main memory),Storage devices (such as disks and CDs),Input devices (such as the mouse and the keyboard),Output devices (such as monitors and printers),Communication devices (such as modems and network interface cards (NIC)).
+- A computer’s components are interconnected by a subsystem called a bus(built into the computer’s motherboard).Data and power travel along the bus from one part of the computer to another.
+- The central processing unit (CPU) is the computer’s brain.It retrieves instructions from the MEMORY and executes them.
+- The CPU usually has two components: a control unit and an arithmetic/logic unit.
+- The control unit controls and coordinates the actions of the other components.
+- The arithmetic/logic unit performs Numeric Operations (addition, subtraction, multiplication, and division) and Logical Operations (comparisons).
+- CPUs are built on small silicon semiconductor chips that contain millions of tiny electric switches, called transistors, for processing information.
+- Every computer has an internal clock that emits electronic pulses at a constant rate.A higher clock speed enables more instructions to be executed in a given period of time.
+- The unit of measurement of Clock Speed is the hertz (Hz), with 1 Hz equaling 1 pulse per second.The clock speed of a computer is now usually stated in gigahertz (GHz).
+- The core is the part of the processor that performs the reading and executing of instructions.
+- The minimum storage unit in a computer is a byte.
+- Encoding Scheme is a set of rules that govern how a computer translates characters and numbers into data with which the computer can actually work.
+- A computer’s MEMORY(ram) consists of an ordered sequence of BYTES for storing programs as well as data with which the program is working.
+- You can think of memory as the computer’s work area for executing a program.
+- Program and its data must be moved into the computer’s memory before they can be executed by the CPU.
+- Memory stores data and program instructions in uniquely addressed memory locations.
+- Any information that has been saved in memory is lost when the system’s power is turned off.
+- Programs and data are permanently stored on storage devices and are moved, when the computer actually uses them, to memory, which operates at much faster speeds than permanent storage
+devices can.
+- Hard disks are used for permanently storing data and programs.
+- All programs must be converted into the instructions the computer can execute.
+- A computer’s native language, which differs among different types of computers, is its machine language—a set of built-in primitive instructions.
+- if you want to give a computer an instruction in its native language, you have to enter the instruction as binary code.
+- Assembler translates assembly-language instructions into machine code.
+- Assembly language is referred to as a low-level language, because assembly language is close in nature to machine language and is machine dependent.
+- The instructions in a high-level programming language are called statements.
+- A program written in a high-level language is called a source program or source code.
+- Computer cannot execute a source program, a source program must be translated into machine code for execution.The translation can be done using another programming tool called an interpreter or a compiler.
+- An interpreter reads ONE statement from the source code, translates it to the machine code or virtual machine code, then executes it right away.
+- A compiler translates the ENTIRE source code into a machine-code file, and the machine-code file is then executed.
+- The operating system (OS) is a program that manages and controls a computer's activities.
+- Java is simple, object oriented, distributed, interpreted, robust, secure, architecture neutral, portable, high performance, multithreaded, and dynamic.
+- Java is partially modeled on C++, but greatly simplified and improved.
+- Java replaces the multiple inheritance in C++ with a simple language construct called an interface, and eliminates pointers.
+- Java uses automatic memory allocation and garbage collection, whereas C++ requires the programmer to allocate memory and collect garbage.
+- Object-oriented programming (OOP) is a popular programming approach that is replacing traditional procedural programming techniques.
+- Software systems developed using procedural programming languages are based on the paradigm of procedures.
+- The bytecode is machine-independent and can run on any machine that has a Java Interpreter, which is part of the Java Virtual Machine (JVM).
+- The Java Interpreter translates the bytecode into the machine language of the target machine.
+- Java is interpreted. This feature enables Java to be architecture-neutral, or to use an alternative term, platform-independent.
+- The execution of the bytecode is never as fast as it would be with a compiled language, such as C++. Because Java is interpreted, the bytecode is not directly executed by the system, but is run through the interpreter.
+- Multithreading is a program’s capability to perform several tasks simultaneously.
+- Multithreading is a necessity in multimedia and network programming.
+- Java is a full-featured, general-purpose programming language that can be used to develop robust mission-critical applications.
+- The Java language specification and the Java API(library) define the Java standards.
+- Java Standard Edition (Java SE) to develop client-side applications. The applications can run on desktop.
+- Java Enterprise Edition (Java EE) to develop server-side applications, such as Java servlets, JavaServer Pages (JSP), and JavaServer Faces (JSF).
+- Java Micro Edition (Java ME) to develop applications for mobile devices, such as cell phones.
+- The program for running Java programs is known as JRE (Java Runtime Environment).
+- Every Java program must have at least one class.
+- The main method is the entry point where the program begins execution.
+- A method is a construct that contains statements.
+- Every statement in Java ends with a semicolon(;), known as the statement terminator.
+- A pair of braces in a program forms a block that groups the program’s components.
+- Java Interpreter, which is part of the Java Virtual Machine (JVM) translates the individual instructions in the bytecode into the target machine language code one at a time, rather than the whole program as a single unit.
+- basic steps of creating a program: 1- analyzing a problem, 2- designing a solution, and 3- implementing the solution by creating a program.
+- Writing a program involves designing a strategy for solving the problem then using a programming language to implement that strategy.
+- It’s always a good practice to outline your program (or its underlying problem) in the form of an algorithm before you begin coding.
+- If a string is combined with a number, the number is converted into a string and concatenated with the other string.
+- A literal is a constant value that appears directly in a program.
+- If an expression contains several multiplication, division, and remainder operators, they are applied from left to right.
+- When a variable is assigned a value that is too large (in size) to be stored, it causes overflow.
+- To test whether a boolean variable is true or false in a test condition, it is redundant to use the equality testing operator.it is better to test the boolean variable directly.
+- incremental development and testing: For all programs, you should write a small amount of code and test it before moving on to add more code. This is called incremental development and testing. This approach makes testing easier, because the errors are likely in the new code you just added.
+- Exclusive Or(^) operator: same as p1 != p2 ----> divisible by 2 or 3 but not both.
+- In programming language terminology, && and || are known as the short-circuit or lazy operators.
+- To avoid programming errors and improve code maintainability, it is a good idea to put a comment in a case clause if break is purposely omitted.
+- All binary operators except assignment operators are left associative.
+- Logic errors are called bugs.The process of finding and correcting errors is called debugging.
+- Debugging Features:Executing a single statement at a time, Stepping into or stepping over a method, Setting breakpoints, Displaying variables, Displaying call stacks, Modifying variables.
+- If a method is being executed, you can ask the debugger to enter the method(step into) and execute one statement at a time in the method, or you can ask it to step over the entire method.
+- You can also set a breakpoint at a specific statement. Your program pauses when it reaches a breakpoint.
+- a + Math.random() * b ---> Returns a random number between a and a + b , excluding a + b .
+- Mapping a character to its binary representation is called encoding.
+- The variable declared by a reference type is known as a reference variable that references an object.
+- A method that can only be invoked from a specific object is called an instance method. A noninstance method is called a static method, which can be invoked without using an object.
+- You can convert a number into a string: String s = number + ""
+- Strings are fundamental in programming. The ability to write programs using strings is essential in learning Java programming.
+-The % sign denotes a format specifier. To output a literal % in the format string, use %% .
+- By default, the output is right justified. You can put the minus sign ( − ) in the format specifier to specify that the item is left justified in the output within the specified field.
+- You can display a number with comma separators by adding a comma in front of a number specifier.
+- counter-controlled loop: you know exactly how many times the loop body needs to be executed because the control variable count is used to count the number of iterations.
+- Loops are fundamental in programming. The ability to write loops is essential in learning Java programming.
+- If you can write programs using loops, you know how to program!
+- Methods can be used to define reusable code and organize and simplify coding.
+- Some programming languages refer to methods as procedures and functions. In those languages, a value-returning method is called a function and a void method is called a procedure.
+- We say “define a method” and “declare a variable.” We are making a subtle distinction here. A definition defines what the defined item is, but a declaration usually involves allocating memory to store data for the declared item.
+- The main method is just like any other method, except that it is invoked by the JVM to start the program.
+- The arguments are passed by value to parameters when invoking a method.
+- For simplicity, Java programmers often say passing x to y, which actually means passing the value of argument x to parameter y.
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
