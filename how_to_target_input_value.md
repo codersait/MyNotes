@@ -5,18 +5,21 @@
      
      form.addEventListener('submit', e => {
         e.preventDefault();
-        const value = username.value }) 
+        const value = username.value 
+      }) 
     --------------------------------------------------------    
      const form = document.querySelector('.signup-form')
 
      form.addEventListener('submit', e => {
         e.preventDefault();
-        const value = form.username.value }) 
+        const value = form.username.value 
+      }) 
     --------------------------------------------------------  
      const form = document.querySelector('.signup-form');
 
      form.addEventListener('submit', e => {
         e.preventDefault();
-        const value = e.target.elements.username.value }) `
+        const value = e.target.elements.username.value 
+      }) `
 
 
