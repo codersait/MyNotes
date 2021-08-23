@@ -1,0 +1,38 @@
+{
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontSize": 18,
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.wordWrap": "on",
+    "terminal.integrated.fontSize": 26,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.jsxSingleQuote": true,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.arrowParens": "avoid",
+    "prettier.trailingComma": "none",
+    "prettier.printWidth": 9999,
+    "editor.linkedEditing": true,
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "emmet.includeLanguages": {
+        "javascript":"javascriptreact"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Source Code, 'Consolas', monospace",
+    "editor.cursorBlinking": "expand",
+    "editor.tabSize": 2,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.snippetSuggestions": "top",
+    "codesnap.backgroundColor": "#FF9505",
+    "codesnap.containerPadding": "2em",
+  
+}
