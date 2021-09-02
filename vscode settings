@@ -1,9 +1,8 @@
 {
-  "workbench.colorTheme": "Nord",
-  "editor.fontSize": 18,
+  "workbench.colorTheme": "Cobalt2",
+  "editor.fontSize": 20,
   "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,
-  "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "terminal.integrated.fontSize": 20,
@@ -28,6 +27,7 @@
     "javascript": "javascriptreact"
   },
   "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'cascadia code'",
   "editor.cursorBlinking": "expand",
   "editor.tabSize": 2,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -42,5 +42,7 @@
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "terminal.integrated.cursorBlinking": true,
+  "editor.cursorStyle": "block"
 }
