@@ -1,9 +1,13 @@
 {
   "workbench.colorTheme": "Cobalt2",
-  "editor.fontSize": 20,
+  "editor.fontSize": 18,
+  "editor.tokenColorCustomizations": {
+    // "comments": "#d4922f"
+    "comments": "#abff2e"
+  },
   "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,
-  "editor.fontLigatures": true,
+  // "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "terminal.integrated.fontSize": 20,
   "[javascript]": {
@@ -27,7 +31,8 @@
     "javascript": "javascriptreact"
   },
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "'cascadia code'",
+  // "editor.fontFamily": "cascadia code",
+  "editor.fontFamily": "Source Code Pro",
   "editor.cursorBlinking": "expand",
   "editor.tabSize": 2,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -43,6 +48,5 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terminal.integrated.cursorBlinking": true,
-  "editor.cursorStyle": "block"
+  "terminal.integrated.cursorBlinking": true
 }
