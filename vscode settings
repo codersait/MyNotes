@@ -1,5 +1,9 @@
 {
-  "editor.fontSize": 18,
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#f1c40f",
+    "terminalCursor.foreground": "#f1c40f"
+  },
+  "editor.fontSize": 17,
   // "editor.tokenColorCustomizations": {
   //   // "comments": "#d4922f"
   //   "comments": "#abff2e"
@@ -14,6 +18,7 @@
   },
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
+  "prettier.semi": false,
   "prettier.arrowParens": "avoid",
   "prettier.trailingComma": "none",
   "prettier.printWidth": 9999,
@@ -29,8 +34,8 @@
     "javascript": "javascriptreact"
   },
   "workbench.iconTheme": "material-icon-theme",
-  // "editor.fontFamily": "cascadia code",
-  "editor.fontFamily": "fira code",
+  // "editor.fontFamily": "fira code",
+  "editor.fontFamily": "cascadia code",
   // "editor.fontFamily": "Source Code Pro",
   "editor.cursorBlinking": "expand",
   "editor.tabSize": 2,
@@ -48,5 +53,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "terminal.integrated.cursorBlinking": true,
-  "workbench.colorTheme": "Cobalt2"
+  "terminal.integrated.cursorStyle": "line",
+  "workbench.colorTheme": "freeCodeCamp Dark Theme",
+  "window.zoomLevel": 1,
+  "vscode-edge-devtools.mirrorEdits": true,
+  "material-icon-theme.folders.color": "#26a69a"
 }
