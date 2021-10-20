@@ -11,3 +11,11 @@
   - `.` matches any character (except for line terminators)
   - `{6,10}` matches the previous token between 6 and 10 times, as many times as possible, giving back as needed (greedy)
   - `$` asserts position at the end of a line
+#### Example
+- const username = '12345saitibrahim16'
+- let pattern = /[a-z]{6,10}/
+- console.log(pattern.test(username));// true
+- console.log(username.search(pattern));// 5 --> index of first match
+- pattern = /^[a-z]{6,10}$/
+- console.log(pattern.test(username));// false
+- console.log(username.search(pattern))// -1 --> does not match
