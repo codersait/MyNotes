@@ -1,0 +1,13 @@
+### RegEx
+- `/^[a-zA-Z0-9]{6,10}$/`
+  - `^` asserts position at start of a line
+  - `{6,10}` matches the previous token between 6 and 10 times, as many times as possible, giving back as needed (greedy)
+  - `a-z` matches a single character in the range between a (index 97) and z (index 122) (case sensitive)
+  - `A-Z` matches a single character in the range between A (index 65) and Z (index 90) (case sensitive)
+  - `0-9` matches a single character in the range between 0 (index 48) and 9 (index 57) (case sensitive)
+  - `$` asserts position at the end of a line
+- `/^.{6,10}$/`
+  - `^` asserts position at start of a line
+  - `.` matches any character (except for line terminators)
+  - `{6,10}` matches the previous token between 6 and 10 times, as many times as possible, giving back as needed (greedy)
+  - `$` asserts position at the end of a line
